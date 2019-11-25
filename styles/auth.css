@@ -1,0 +1,76 @@
+body {
+    height: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: #484848;
+}
+
+input::placeholder {
+    color: #DADADD;
+    font-size: 1em;
+    font-style: italic;
+}
+
+label {
+    color: #896ABE;
+}
+
+#wrapper{
+    position: relative;
+    margin: 0 auto;
+}
+
+#content{
+    min-height: 100%;
+    position: relative;
+}
+
+#authorization{
+    margin: 0 auto;
+    margin-top: 10%;
+    display: block;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 5px 0 10px rgba(150, 150, 150, 0.5);
+    background-color:#FFFFFF;
+    width:210px;
+    height:280px;
+}
+
+#authorization img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+}
+
+#authorization h2{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #896ABE;
+}
+
+#authorization #bottonOk{
+    width: 125px;
+    height: 33px;
+    cursor:pointer;
+    background-image:url("../img/button1.png");
+    background-color:#EFEFEF;
+    margin-left: 40px;
+    color:#FFFFFF;
+}
+
+#authorization #login, #pass{
+    width: 200px;
+    height: 20px;
+    padding: 1%;
+    border: 1px solid #B39ED6;
+    border-radius: 5px;
+}
+
+/*
+ * == CLASSES =======================================
+*/
+.clear {
+    clear: both;
+}

@@ -1,0 +1,17 @@
+#wrapper{
+    height: 100vh;
+}
+
+div {
+    display: block;
+}
+
+input::placeholder {
+    color: #DADADD;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.clear {
+    clear: both;
+}
