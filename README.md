@@ -1,2 +1,2 @@
 # Cracker
-Менеджер тест-кейсов и чек-листов
+test case manager

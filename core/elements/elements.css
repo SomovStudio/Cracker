@@ -1,0 +1,277 @@
+/* PANEL */
+#panel-elements{
+    margin-top: 10px;
+    min-height: 35px;
+}
+
+/* SEARCH */
+#search-panel{
+    position: relative;
+    width: 320px;
+    top: -16px;
+    left: 5px;
+}
+
+#search{
+    position:absolute;
+    top:1px;
+    left: 0px;
+    width: 200px;
+    height: 22px;
+    padding: 1%;
+    border: 1px solid #B39ED6;
+    border-radius: 5px;
+}
+
+#search input::placeholder {
+    color: #DADADD;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.button-search{
+    position:absolute;
+    top: 0px;
+    left: 210px;
+    width: 100px;
+    height: 30px;
+    padding: 1%;
+    margin-top: 0.3%;
+    border-radius: 3px;
+    background-color:#8257A2;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+.button-search:hover{
+    position:absolute;
+    top: 0px;
+    left: 210px;
+    width: 100px;
+    height: 30px;
+    padding: 1%;
+    margin-top: 0.3%;
+    border-radius: 3px;
+    background-color:#684780;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+/* BUTTON */
+#button-empty{
+    position:relative;
+}
+
+.button{
+    padding: 1%;
+    border-radius: 3px;
+    background-color:#8257A2;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+.button:hover{
+    padding: 1%;
+    border-radius: 3px;
+    background-color:#684780;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+/* TABLE */
+#table{
+    width:100%;
+    min-height: 100%;
+    text-align: center;
+    overflow-x: scroll;
+    border-right: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+}
+
+#table table{
+    display: block;
+}
+
+#table tbody{
+    /*height: 50vh;*/
+    display: block;
+    overflow: auto;
+}
+#table th{
+    background-color:#e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+}
+
+#table td{
+    text-align:left;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+}
+
+#table tr:hover {
+    background: #F9F9E1;
+    color: #000000;
+}
+
+.table-column-edit{
+    width: 50px;
+    text-align:center;
+}
+
+.table-column-delete{
+    width: 50px;
+    text-align:center;
+}
+
+.table-column-steps{
+    width: 50px;
+    text-align:center;
+}
+
+.table-button-edit{
+    width: 21px;
+    height: 21px;
+    cursor:pointer;
+    background-image: url("../../img/edit.png");
+    background-color: rgba(255,255,255,0);
+}
+
+.table-button-delete{
+    width: 21px;
+    height: 21px;
+    cursor:pointer;
+    background-image: url("../../img/delete.png");
+    background-color: rgba(255,255,255,0);
+}
+
+.table-button-steps{
+    width: 21px;
+    height: 21px;
+    cursor:pointer;
+    background-image: url("../../img/steps.png");
+    background-color: rgba(255,255,255,0);
+}
+
+/* FORM */
+#form{
+    text-align: center;
+}
+
+#form input::placeholder {
+    color: #999999;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#form select::placeholder {
+    color: #999999;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#form textarea::placeholder {
+    color: #999999;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#form-content{
+    width:100%;
+    overflow-y:scroll;
+    color:#000000;
+    text-align: left;
+}
+
+.label{
+    position: relative;
+    margin-left: 10px;
+}
+
+.text-box{
+    position: relative;
+    width: 90%;
+    height: 20px;
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.combo-box{
+    position: relative;
+    width: 50%;
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.memo-box{
+    position: relative;
+    width: 90%;
+    height: 60px;
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.button-save{
+    position: relative;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color:#8257A2;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+.button-save:hover{
+    position: relative;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color:#684780;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+/* COMBOBOX */
+#combobox-panel form {
+
+}
+#combobox-panel label {
+    margin-right: 10px;
+}
+#combobox-panel select {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #B39ED6;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#combobox-panel .button-combobox {
+    border-radius: 3px;
+    background-color:#8257A2;
+    color:#FFFFFF;
+    cursor:pointer;
+    width: 100px;
+    height: 30px;
+}
+
+#combobox-panel .button-combobox:hover{
+    border-radius: 3px;
+    background-color:#684780;
+    color:#FFFFFF;
+    cursor:pointer;
+    width: 100px;
+    height: 30px;
+}

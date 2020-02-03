@@ -11,7 +11,7 @@
     <body>
         <div id="wrapper">
             <div id="content">
-                <?php require_once './pages/auth.php'; ?>
+                <?php require_once './auth/auth.php'; ?>
             </div>
             <div class="Clear"></div>
         </div>

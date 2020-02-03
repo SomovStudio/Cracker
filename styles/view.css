@@ -1,0 +1,217 @@
+/* HEADER ----------------------------------------*/
+
+#header {
+    margin: 0px 10px 0px 10px;
+}
+
+#header-top-menu {
+    padding: 0px 10px 0px 10px;
+    background: #533E76;
+    color: #fff;
+    height: 1.8em;
+    font-size: 0.8em;
+}
+
+#header-title-logo{
+    min-height: 5.3em;
+    margin: 0;
+    background-color: #8062B6;
+    color: #f8f8f8;
+    padding: 4px 8px 20px 6px;
+    position: relative;
+}
+
+#header-account {
+    float: right;
+}
+
+#header-account ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#header-account li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    white-space: nowrap;
+}
+
+#header-account a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header-account a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#header-content-menu {
+    float: left;
+}
+
+#header-content-menu ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#header-content-menu li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    white-space: nowrap;
+}
+
+#header-content-menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header-content-menu a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* FOOTER ---------------------------------------- */
+
+#footer {
+    font-size: 0.9em;
+    color: #aaa;
+    padding: 5px;
+    text-align: center;
+}
+
+/* CONTENT ---------------------------------------- */
+
+#content {
+    margin: 8px 10px 0px 10px;
+    padding: 5px 5px 5px 5px;
+    background: #fff;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.content-left{
+    float: left;
+    width: 49%;
+    overflow: hidden;
+}
+
+.content-right{
+    float: right;
+    width: 49%;
+    overflow: hidden;
+}
+
+/* ADMIN-BOX ---------------------------------------- */
+
+.administrator-box {
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    color: #505050;
+    line-height: 1.5em;
+    border: 1px solid #e4e4e4;
+    word-wrap: break-word;
+}
+
+.administrator-box h4{
+    margin-bottom: 10px;
+}
+
+.administrator-box ul{
+    margin-left: 25px;
+}
+
+.administrator-box a{
+    color: #533E76;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.administrator-box a:hover{
+    color: #533E76;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.administrator-box p{
+    margin-top: 10px;
+}
+
+/* USER-BOX ---------------------------------------- */
+
+.user-box {
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    color: #505050;
+    line-height: 1.5em;
+    border: 1px solid #e4e4e4;
+    word-wrap: break-word;
+}
+
+.user-box h4{
+    margin-bottom: 10px;
+}
+
+.user-box ul{
+    margin-left: 25px;
+}
+
+.user-box a{
+    color: #533E76;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-box a:hover{
+    color: #533E76;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.user-box p{
+    margin-top: 10px;
+}
+
+/* EDIT-BOX ---------------------------------------- */
+
+.edit-box {
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    color: #505050;
+    line-height: 1.5em;
+    border: 1px solid #e4e4e4;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.combobox-project {
+    position: relative;
+    float: right;
+}
